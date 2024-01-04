@@ -16,7 +16,8 @@ public class Reverse
         	 letter = str.charAt(str.length() -1 -i);
         	 reverseWord = reverseWord + letter;
         	 // first for odd second for even 
-         if (((str.length()-i-1) ==  i)||(str.length()-i-1) ==  i+1)
+        	// if (((str.length()-i-1) ==  i)||(str.length()-i) ==  i)
+         if (((str.length()-i-1) ==  i)||(str.length()-i) ==  i)
           {
           	middle = letter;
           }

@@ -7,8 +7,8 @@ public class DamkaBoard {
 		int n = Integer.parseInt(args[0]);
 		for ( int i = 0; i < n; i++ )
 		{
-			//System.out.println(" 5");
-			System.out.println("     ");
+
+			System.out.println("");
 
 			for ( int j = 0; j < n; j++ )
 			{
@@ -23,10 +23,6 @@ public class DamkaBoard {
                }
 
             }
-          //System.out.println(" ");
-          //System.out.print("*");
-
-            //System.out.println(" ");
 
         }
 

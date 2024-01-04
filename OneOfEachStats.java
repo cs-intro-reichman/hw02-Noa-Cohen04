@@ -25,9 +25,8 @@ public class OneOfEachStats {
 	    int sum2 = 0;
 	    int sum3 = 0;
 	    int sum4 = 0;
-	    int a = 0;
-	    int allChildren = 0;//all the children
-	    double average = 0;
+	    double a = 0;
+	    double allChildren = 0;//all the children
 	    String common = "wrong";
 
 		for (int i =0 ; i< T ; i++)
@@ -76,7 +75,7 @@ public class OneOfEachStats {
 	       }
 	    }
 
-	average = (double)allChildren/T;
+	      double average = (double)allChildren/T;
 	      System.out.println("Average: " + average + " children to get at least one of each gender.");
 	      System.out.println("Number of families with 2 children: " + sum2);
 	      System.out.println("Number of families with 3 children: " + sum3);
