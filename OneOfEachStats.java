@@ -160,8 +160,7 @@ public class OneOfEachStats {
 			System.out.println("The most common number of children is 4 or more." );
 		}
 
-					System.out.println( totalChildren);
-										System.out.println( T);
+					
 
 
 
